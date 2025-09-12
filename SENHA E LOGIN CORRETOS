@@ -1,0 +1,16 @@
+import os
+os.system("cls")
+
+
+login = "Gb"
+senha = "1234"
+
+while True:
+    login_digitado = input("Informe seu login: ")
+    senha_digitada = input("Informe sua senha: ")
+    
+    if login_digitado == login and senha_digitada == senha:
+        print("Seja bem-vindo")
+        break  
+    else:
+        print("Senha ou login inválido. Tente novamente.")
