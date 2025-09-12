@@ -1,0 +1,14 @@
+import os
+os.system
+
+
+while True:
+    Nota_1 = int(input("Informe a primeira nota do Aluno: "))
+    Nota_2 = int(input("Informe a segunda nota do Aluno: "))
+    media = (Nota_1 + Nota_2) / 2 
+    
+    print(f"Sua media foi: {media}")
+    if media < 0 or media > 10:
+     print(f"Sua media foi: {media}")
+    else:
+        break
