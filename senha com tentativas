@@ -1,0 +1,24 @@
+import os
+os.system("cls")
+
+login = "GB"
+senha = "12"
+Tentativa = 0
+
+
+while True:
+    LOGIN = input("Informe seu login: ")
+    Senha = input("Informe sua senha: ")
+    
+    if LOGIN == login and Senha == senha:
+        print(f"Seja bem vindo.")
+        break
+    elif Tentativa == 3:
+        print("Tente mais tarde.")
+        break
+    else:
+        print(f"Login ou Senha incorreta.")
+        Tentativa = Tentativa+1
+print("Fim")
+
+
